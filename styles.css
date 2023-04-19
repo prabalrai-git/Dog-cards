@@ -114,3 +114,68 @@
     left: -1px;
     bottom: -5px;
 }
+
+.hero-div {
+    background-image: url('/Assets/Rectangle\ 109.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-img {
+    height: auto;
+    width: auto;
+    max-width: 410px;
+    max-height: 410px;
+    position: absolute;
+    bottom: 0px;
+    right: 15%;
+}
+
+
+.hero-txt-container h1 {
+    position: absolute;
+    left: 8%;
+    bottom: 15%;
+    font-size: 6vw;
+    font-weight: bolder;
+    color: white;
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero-div {
+        background-image: url('/Assets/Rectangle\ 109.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .hero-img {
+        height: auto;
+        width: auto;
+        max-width: 250px;
+        max-height: 250px;
+        position: absolute;
+        bottom: 0px;
+        right: 5%;
+    }
+
+    .hero-txt-container h1 {
+        position: absolute;
+        left: 8%;
+        bottom: 15%;
+        font-size: 7vw;
+        font-weight: bolder;
+        color: white;
+    }
+}
