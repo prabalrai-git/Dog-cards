@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us-first-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.about-us-first-div-left {
+    width: 54%;
+    padding: 5%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.about-us-first-div-left h1 {
+    font-weight: bolder;
+}
+
+.about-us-first-div-right {
+    width: 35%;
+
+}
+
+.about-us-first-div-right img {
+    display: block;
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+}
+
+.paw-break {
+    width: 27%;
+    object-fit: contain;
+}
+
+.arrow {
+    position: absolute;
+    width: 13%;
+    object-fit: contain;
+    bottom: 0%;
+    z-index: 10;
+    right: 16%;
+
+}
+
+.quto-txt {
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10% 20%;
+    font-size: 1.7vw
+}
+
+.about-us-dogs-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-dogs-img-container img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-us-first-div-right img {
+        display: none;
+    }
+
+    .about-us-first-div-right {
+        display: none;
+
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .about-us-first-div-left {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5%;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .quto-txt {
+        width: 100%;
+        font-weight: bolder;
+        text-align: center;
+        padding: 6% 14%;
+        font-size: 2.5vw;
+        /* font-size: 14px; */
+
+    }
+
+    .paw-break {
+        width: 47%;
+        object-fit: contain;
+    }
+
+    .about-us-first-div-left h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .about-us-first-div-right img {
+        display: block;
+        width: 34%;
+        height: auto;
+        object-fit: contain;
+        position: absolute;
+        bottom: 0%;
+        right: 0px;
+    }
+}
